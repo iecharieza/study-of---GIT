@@ -1,3 +1,4 @@
+
 Membuat Repository
 
 1.	BUat dulu foldernya menggunakan windows explorer
@@ -16,4 +17,36 @@ Membuat Repository
 5.	Periksa hasilnya di windows explorer
 	Tools	> Folder options	> view	> Show hidden files
 	harusnya ada folder .git didalam My documents \ belajar git
+
+Setting user name dan email
+
+1.	Setting user name 
+	git config --global user. name "Endy Muhardin"
+
+2.	setting email
+	git config --global user. email endy. muhardin@gmail.com
+
+
+Mengelola folder kerja (working folder)
+1.	Melihat status
+	git status
+
+	untracked files : file yang belum tersimpan di repository
+
+2. 	Mendaftarkan file untuk disimpan
+	git add nama file
+
+3.	Lihat status setelah di add
+	git status
+
+	changes to be commited : perubahan yang akan disimpan 
+
+4,	Menyimpan perubahan
+	git commit -m keterangan perubahan
+
+5.	Melihat history perubahan
+	git log
+
+6.	Edit file 
+
 	
