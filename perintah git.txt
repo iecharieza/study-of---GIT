@@ -1,0 +1,19 @@
+Membuat Repository
+
+1.	BUat dulu foldernya menggunakan windows explorer
+	misalnya My Documents\Belajar git
+
+2.	Buka command prompt
+	Start	> Run	> Ketik cmd	> tekan enter
+
+3. 	Pindah ke folder yang akan dibuatkan repositorynya
+	cd My Document
+	cd belajar git
+
+4. 	Inisialisasi repository
+	git init
+
+5.	Periksa hasilnya di windows explorer
+	Tools	> Folder options	> view	> Show hidden files
+	harusnya ada folder .git didalam My documents \ belajar git
+	
